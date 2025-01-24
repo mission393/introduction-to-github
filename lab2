@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+</head>
+<body>
+    <h1>This is heading 1</h1>
+    <h2>This is heading 2</h2>
+
+    <p>This is a new paragraph.</p>
+
+    <p>This sentence uses <strong>strong importance</strong>.</p>
+    <p>This sentence uses both <strong>strong importance</strong> and <em>emphasis</em>.</p>
+
+    <p>This sentence is written in <em>italic</em> style.</p>
+    <p>This sentence is written in <small>small</small> style.</p>
+
+    <p>This sentence contains <sub>subscript</sub> and <sup>superscript</sup> text.</p>
+
+    <p>This sentence contains <del>deleted-text</del> and <ins>inserted text</ins>.</p>
+
+    <p>The HTML <a href="https://www.algomau.ca" target="_blank">Algoma University</a> website is linked here.</p>
+
+    <!-- Ensure the image is in the same folder as your HTML file -->
+    <img src="milky-way.webp" alt="Description of the image" width="300" height="200">
+
+    <h3>HTML Lists</h3>
+
+    <h4>Ordered List</h4>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <h4>Unordered List</h4>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h4>Definition List</h4>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+        <dt>JavaScript</dt>
+        <dd>A programming language for web development</dd>
+    </dl>
+
+    <h3>HTML Table</h3>
+    <table border="1">
+        <tr>
+            <th>Header Column 1</th>
+            <th>Header Column 2</th>
+            <th>Header Column 3</th>
+            <th>Header Column 4</th>
+        </tr>
+        <tr>
+            <td>Column 1</td>
+            <td>Column 2</td>
+            <td>Column 3</td>
+            <td>Column 4</td>
+        </tr>
+        <tr>
+            <td>Column 1</td>
+            <td>Column 2</td>
+            <td>Column 3</td>
+            <td>Column 4</td>
+        </tr>
+    </table>
+
+    <p><a href="#top">Go to Top</a></p>
+
+    <!-- Anchor for "Go to Top" -->
+    <div id="top"></div>
+</body>
+</html>
